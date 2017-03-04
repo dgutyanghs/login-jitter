@@ -1,0 +1,5 @@
+* Swift 实现登录框抖动。
+** 模拟用户输入信息错误时， 输入框来回摆动，提示用户。
+#+BEGIN_EXAMPLE
+使用 protocol 方式实现
+#+END_EXAMPLE
