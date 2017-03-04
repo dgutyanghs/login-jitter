@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0BC7E771E6B0BF400D7633A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC7E761E6B0BF400D7633A /* AppDelegate.swift */; };
+		C0BC7E791E6B0BF400D7633A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC7E781E6B0BF400D7633A /* ViewController.swift */; };
+		C0BC7E7C1E6B0BF400D7633A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BC7E7A1E6B0BF400D7633A /* Main.storyboard */; };
+		C0BC7E7E1E6B0BF400D7633A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BC7E7D1E6B0BF400D7633A /* Assets.xcassets */; };
+		C0BC7E811E6B0BF400D7633A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BC7E7F1E6B0BF400D7633A /* LaunchScreen.storyboard */; };
+		C0BC7E8C1E6B0BF400D7633A /* jitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC7E8B1E6B0BF400D7633A /* jitterTests.swift */; };
+		C0BC7E971E6B0ECC00D7633A /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC7E961E6B0ECC00D7633A /* Jitterable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0BC7E881E6B0BF400D7633A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0BC7E6B1E6B0BF400D7633A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BC7E721E6B0BF400D7633A;
+			remoteInfo = jitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0BC7E731E6B0BF400D7633A /* jitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BC7E761E6B0BF400D7633A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0BC7E781E6B0BF400D7633A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0BC7E7B1E6B0BF400D7633A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0BC7E7D1E6B0BF400D7633A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0BC7E801E6B0BF400D7633A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0BC7E821E6B0BF400D7633A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BC7E871E6B0BF400D7633A /* jitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BC7E8B1E6B0BF400D7633A /* jitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jitterTests.swift; sourceTree = "<group>"; };
+		C0BC7E8D1E6B0BF400D7633A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BC7E961E6B0ECC00D7633A /* Jitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0BC7E701E6B0BF400D7633A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BC7E841E6B0BF400D7633A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0BC7E6A1E6B0BF400D7633A = {
+			isa = PBXGroup;
+			children = (
+				C0BC7E751E6B0BF400D7633A /* jitter */,
+				C0BC7E8A1E6B0BF400D7633A /* jitterTests */,
+				C0BC7E741E6B0BF400D7633A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0BC7E741E6B0BF400D7633A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC7E731E6B0BF400D7633A /* jitter.app */,
+				C0BC7E871E6B0BF400D7633A /* jitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0BC7E751E6B0BF400D7633A /* jitter */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC7E981E6B0ED100D7633A /* Protocol */,
+				C0BC7E761E6B0BF400D7633A /* AppDelegate.swift */,
+				C0BC7E781E6B0BF400D7633A /* ViewController.swift */,
+				C0BC7E7A1E6B0BF400D7633A /* Main.storyboard */,
+				C0BC7E7D1E6B0BF400D7633A /* Assets.xcassets */,
+				C0BC7E7F1E6B0BF400D7633A /* LaunchScreen.storyboard */,
+				C0BC7E821E6B0BF400D7633A /* Info.plist */,
+			);
+			path = jitter;
+			sourceTree = "<group>";
+		};
+		C0BC7E8A1E6B0BF400D7633A /* jitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC7E8B1E6B0BF400D7633A /* jitterTests.swift */,
+				C0BC7E8D1E6B0BF400D7633A /* Info.plist */,
+			);
+			path = jitterTests;
+			sourceTree = "<group>";
+		};
+		C0BC7E981E6B0ED100D7633A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC7E961E6B0ECC00D7633A /* Jitterable.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0BC7E721E6B0BF400D7633A /* jitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BC7E901E6B0BF400D7633A /* Build configuration list for PBXNativeTarget "jitter" */;
+			buildPhases = (
+				C0BC7E6F1E6B0BF400D7633A /* Sources */,
+				C0BC7E701E6B0BF400D7633A /* Frameworks */,
+				C0BC7E711E6B0BF400D7633A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jitter;
+			productName = jitter;
+			productReference = C0BC7E731E6B0BF400D7633A /* jitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0BC7E861E6B0BF400D7633A /* jitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BC7E931E6B0BF400D7633A /* Build configuration list for PBXNativeTarget "jitterTests" */;
+			buildPhases = (
+				C0BC7E831E6B0BF400D7633A /* Sources */,
+				C0BC7E841E6B0BF400D7633A /* Frameworks */,
+				C0BC7E851E6B0BF400D7633A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BC7E891E6B0BF400D7633A /* PBXTargetDependency */,
+			);
+			name = jitterTests;
+			productName = jitterTests;
+			productReference = C0BC7E871E6B0BF400D7633A /* jitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0BC7E6B1E6B0BF400D7633A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = " BlueYang";
+				TargetAttributes = {
+					C0BC7E721E6B0BF400D7633A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X77M95VSB8;
+						ProvisioningStyle = Automatic;
+					};
+					C0BC7E861E6B0BF400D7633A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X77M95VSB8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0BC7E721E6B0BF400D7633A;
+					};
+				};
+			};
+			buildConfigurationList = C0BC7E6E1E6B0BF400D7633A /* Build configuration list for PBXProject "jitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0BC7E6A1E6B0BF400D7633A;
+			productRefGroup = C0BC7E741E6B0BF400D7633A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0BC7E721E6B0BF400D7633A /* jitter */,
+				C0BC7E861E6B0BF400D7633A /* jitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0BC7E711E6B0BF400D7633A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BC7E811E6B0BF400D7633A /* LaunchScreen.storyboard in Resources */,
+				C0BC7E7E1E6B0BF400D7633A /* Assets.xcassets in Resources */,
+				C0BC7E7C1E6B0BF400D7633A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BC7E851E6B0BF400D7633A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BC7E6F1E6B0BF400D7633A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BC7E971E6B0ECC00D7633A /* Jitterable.swift in Sources */,
+				C0BC7E791E6B0BF400D7633A /* ViewController.swift in Sources */,
+				C0BC7E771E6B0BF400D7633A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BC7E831E6B0BF400D7633A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BC7E8C1E6B0BF400D7633A /* jitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0BC7E891E6B0BF400D7633A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0BC7E721E6B0BF400D7633A /* jitter */;
+			targetProxy = C0BC7E881E6B0BF400D7633A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0BC7E7A1E6B0BF400D7633A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BC7E7B1E6B0BF400D7633A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0BC7E7F1E6B0BF400D7633A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BC7E801E6B0BF400D7633A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0BC7E8E1E6B0BF400D7633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0BC7E8F1E6B0BF400D7633A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0BC7E911E6B0BF400D7633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X77M95VSB8;
+				INFOPLIST_FILE = jitter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BY.jitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0BC7E921E6B0BF400D7633A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X77M95VSB8;
+				INFOPLIST_FILE = jitter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BY.jitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C0BC7E941E6B0BF400D7633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X77M95VSB8;
+				INFOPLIST_FILE = jitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BY.jitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jitter.app/jitter";
+			};
+			name = Debug;
+		};
+		C0BC7E951E6B0BF400D7633A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X77M95VSB8;
+				INFOPLIST_FILE = jitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BY.jitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jitter.app/jitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0BC7E6E1E6B0BF400D7633A /* Build configuration list for PBXProject "jitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BC7E8E1E6B0BF400D7633A /* Debug */,
+				C0BC7E8F1E6B0BF400D7633A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BC7E901E6B0BF400D7633A /* Build configuration list for PBXNativeTarget "jitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BC7E911E6B0BF400D7633A /* Debug */,
+				C0BC7E921E6B0BF400D7633A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0BC7E931E6B0BF400D7633A /* Build configuration list for PBXNativeTarget "jitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BC7E941E6B0BF400D7633A /* Debug */,
+				C0BC7E951E6B0BF400D7633A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0BC7E6B1E6B0BF400D7633A /* Project object */;
+}
