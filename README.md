@@ -16,3 +16,7 @@
 ## 模拟用户输入信息错误时， 输入框来回摆动，提示用户。<a id="orgheadline1"></a>
 
     使用 protocol 方式实现
+
+**Screenshots**
+
+<img src="demo.png"" width="320px" />

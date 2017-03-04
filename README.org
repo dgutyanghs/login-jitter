@@ -3,3 +3,7 @@
 #+BEGIN_EXAMPLE
 使用 protocol 方式实现
 #+END_EXAMPLE
+
+*Screenshots*
+
+<img src="demo.png"" width="320px" />
